@@ -1,0 +1,16 @@
+<view>
+  <tabs bind:change='changeTab'>
+    <tab title='Overview'>
+      <profile user='{{user}}' wx:if='{{user}}'></profile>
+    </tab>
+    <tab title='Repositories'>
+      <repo wx:for='{{repos}}' wx:key='{{index}}' repo='{{item}}'></repo>
+    </tab>
+    <tab title='Starred'>
+      <repo wx:for='{{starred}}' wx:key='{{index}}' repo='{{item}}'></repo>
+    </tab>
+  </tabs>
+  <navigator url='/pages/login/login' wx:if='{{!user}}'>
+    <button class='login-button'>马上登陆</button>
+  </navigator>
+</view>

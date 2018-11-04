@@ -1,0 +1,13 @@
+<wxs module='filters' src='../../filter/issue.wxs'/>
+<view class='issue-detail' hover-class='hover-class' data-issue='{{issue}}' catchtap=''>
+  <text class='title' wx:if='{{issue.title}}'>{{issue.title}}</text>
+  <view class='comment-wrapper'>
+    <comment comment='{{issue}}'></comment>
+  </view>
+  <view class='comment-wrapper' wx:for='{{comments}}' wx:key='{{index}}' >
+    <comment comment='{{item}}'></comment>
+  </view>
+  <view class='loading' wx:if='{{pageReady}}'>
+    <v-button plain round type='primary' size='small' loading='{{loadingMore}}' bind:click='loadMore' class='more-btn'>{{loadMoreBtnText}}</v-button>
+  </view>
+</view>

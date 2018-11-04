@@ -1,0 +1,13 @@
+<view>
+  <tabs bind:change='changeTab'>
+    <tab title='Overview'>
+      <profile user='{{user}}'></profile>
+    </tab>
+    <tab title='Repositories'>
+      <repo wx:for='{{repos}}' wx:key='{{index}}' repo='{{item}}'></repo>
+    </tab>
+    <tab title='Starred'>
+      <repo wx:for='{{starred}}' wx:key='{{index}}' repo='{{item}}'></repo>
+    </tab>
+  </tabs>
+</view>
