@@ -22,14 +22,19 @@ GitHub Mini Program
 | Followers | Following | My Repos | My Starred | Sign In |
 | ![followers](https://user-images.githubusercontent.com/15965696/47966269-a2ba6280-e08b-11e8-8ada-3694a92e4ebb.jpg) | ![following](https://user-images.githubusercontent.com/15965696/47966429-37719000-e08d-11e8-90a9-d0687bf9cb67.jpg) | ![my-repos](https://user-images.githubusercontent.com/15965696/47966273-a352f900-e08b-11e8-8c78-fe70d80f1862.jpg) | ![my-starred](https://user-images.githubusercontent.com/15965696/47966274-a3eb8f80-e08b-11e8-9dbc-d65cb0537b4d.jpg) | ![sign-in](https://user-images.githubusercontent.com/15965696/47966280-a4842600-e08b-11e8-9d01-c54b07029de4.jpg) |
 
-
-
-
 ## 说明
 由于个人小程序内无法跳转网页，因此无法通过 Oauth 方式登陆 GitHub，所以这里使用了账号密码的方式登陆，**账号密码只会通过代理服务器转发到 GitHub 服务器认证，不会被保存，不会被保存，不会被保存，请放心使用**，后续会让用户填自己的 access token 等更安全的方式。
 
 ## TODO
 
-[] feature: 评论功能    
-[] feature: Star, Fork, Watch 功能  
-[] bugfix: Markdown 显示时代码块显示成一行
+- [x] feature: 评论功能    
+- [x] feature: Star, Fork, Watch 功能  
+
+## 捐赠
+
+如果我的项目对你有帮助，可以请我喝杯饮料
+
+|  微信支付 |  支付宝  |
+| :------: | :------: |
+| ![3741541638212_ pic](https://user-images.githubusercontent.com/15965696/48297720-9c444480-e4ea-11e8-8c92-4a63c43eeae9.jpg) | ![3751541638213_ pic_hd](https://user-images.githubusercontent.com/15965696/48297727-b0884180-e4ea-11e8-940e-3b5baa6250b3.jpg) |
+
