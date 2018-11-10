@@ -36,5 +36,6 @@ GitHub Mini Program
 
 |  微信支付 |  支付宝  |
 | :------: | :------: |
-| ![3741541638212_ pic](https://user-images.githubusercontent.com/15965696/48297720-9c444480-e4ea-11e8-8c92-4a63c43eeae9.jpg) | ![3751541638213_ pic_hd](https://user-images.githubusercontent.com/15965696/48297727-b0884180-e4ea-11e8-940e-3b5baa6250b3.jpg) |
+| ![alipay](https://user-images.githubusercontent.com/15965696/48297815-16c19400-e4ec-11e8-8b34-7ed4fa27daf7.jpg) | ![wepay](https://user-images.githubusercontent.com/15965696/48297819-1aedb180-e4ec-11e8-8d7c-a92e700e1b22.png) |
+
 
